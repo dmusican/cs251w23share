@@ -14,6 +14,6 @@
 (my-plus 9 12)
 
 ;; shorthand don't do this
-(define my-other-plus x y
+(define (my-other-plus x y)
   (+ x y))
 
