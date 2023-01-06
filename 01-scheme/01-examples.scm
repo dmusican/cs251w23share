@@ -11,3 +11,4 @@
   (lambda (x y)
     (+ x y)))
 
+(my-plus 9 12)
