@@ -8,3 +8,13 @@
 	  [else
 	   (cons (car lst)
 		 (remove-first item (cdr lst)))])))
+
+;; Two tasks
+(define nth
+  (lambda (lst n)   ---> returns nth item of list
+
+	  ))
+
+(define remove
+  ;; just like remove-first, but get all of them
+  )
