@@ -16,5 +16,10 @@
 	  ))
 
 (define remove
-  ;; just like remove-first, but get all of them
-  )
+  (lambda (item lst)
+    (cond [(null? lst) '()]
+	  [(equal? item (car lst))
+	   (remove item (cdr lst))]
+	  [else
+	   (cons (car lst)
+		 (remove item (cdr lst)))])))
