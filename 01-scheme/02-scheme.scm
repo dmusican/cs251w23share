@@ -9,5 +9,5 @@
     (if (null? lst)
 	........?????
 	(and
-	 (number? (car lst)
-		  (list-of-numbers? (cdr lst)))))))
+	 (number? (car lst))
+	 (list-of-numbers? (cdr lst))))))
