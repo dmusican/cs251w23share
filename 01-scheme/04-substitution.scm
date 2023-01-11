@@ -3,10 +3,15 @@
 
 (define subst
   (lambda (old new input)
-    (cond ((null? input) ____________)
-	  ((list? input) ____________)
-	  ((equal? input old) ______________)
-	  (else _____________________))))
+    (cond ((null? input) '())
+	  ((list? input)
+
+	   (cons
+	    (subst old new (car input))
+	    (subst old new (cdr input))))
+
+	  ((equal? input old) new)
+	  (else input))))
 
 
 ;;; (subsets '(1 2 3)) ---> ( () (1) (2) (3) (1 2) (1 2) (2 3) (1 2 3))
