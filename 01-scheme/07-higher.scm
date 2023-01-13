@@ -11,3 +11,15 @@
 ;; (map add-one '(8 2 1 9 3))
 
 ;;; reduce = fold-left, fold-right
+(use-modules (rnrs))
+;; fold-left takes
+;;     a function (of two parameters)
+;;     a starting value
+;;     a list
+(fold-left + 0 '(1 2 3))
+
+(define my-map
+  (lambda (f lst)
+    (if (null? lst) '()
+        (cons (f (car lst))
+              (my-map f (cdr lst))))))
