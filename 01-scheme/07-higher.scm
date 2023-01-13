@@ -9,3 +9,5 @@
 ;; returns a new list that runs the function
 ;; on each item in that list
 ;; (map add-one '(8 2 1 9 3))
+
+;;; reduce = fold-left, fold-right
