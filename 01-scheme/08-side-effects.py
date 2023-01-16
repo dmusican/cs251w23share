@@ -20,3 +20,12 @@ thing = [9,8,7,6]
 
 remove_first_directly(thing)
 print(thing)
+
+# Advantages....
+# With side effects, you might do this
+list1 = [3,2,1]
+list2 = list1
+
+# ... millions of lines of code happen
+list2.sort()
+print(list1)
