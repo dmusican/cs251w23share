@@ -37,3 +37,14 @@ list2 = list1
 list1 = sorted(list1)
 print(list1)
 print(list2)
+
+# Huge help with parallel programming
+x = 3
+
+def doit():
+    set x to 8
+
+def doit2():
+    set x to 10
+
+do_in_parallel(doit1, doit2)
