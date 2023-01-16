@@ -39,6 +39,7 @@ print(list1)
 print(list2)
 
 # Huge help with parallel programming
+# Avoids non-deterministic code like this
 x = 3
 
 def doit():
