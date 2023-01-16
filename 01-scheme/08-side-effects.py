@@ -35,3 +35,5 @@ list1 = [3,2,1]
 list2 = list1
 
 list1 = sorted(list1)
+print(list1)
+print(list2)
