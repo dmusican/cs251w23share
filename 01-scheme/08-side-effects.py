@@ -28,4 +28,10 @@ list2 = list1
 
 # ... millions of lines of code happen
 list2.sort()
-print(list1)
+print("list 1:", list1)
+
+# Without side effects
+list1 = [3,2,1]
+list2 = list1
+
+list1 = sorted(list1)
