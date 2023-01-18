@@ -1,6 +1,9 @@
 # container_example.py
 
 class Container:
+
+    def __init__(self, valuething):
+        self.value = valuething
     pass
 
 w1 = Container()
