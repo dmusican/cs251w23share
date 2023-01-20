@@ -9,7 +9,7 @@ int main() {
     int *x;
     x = &a;
 
-    printf("x = %i\n", x);
+    printf("x = %p\n", x);
 
 
     return 0;
