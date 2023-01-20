@@ -14,6 +14,7 @@ int main() {
 
     *x = 6;
 
+    printf("a = %i\n", a);
 
     return 0;
 }
