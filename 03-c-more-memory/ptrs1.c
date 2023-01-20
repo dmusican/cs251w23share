@@ -12,9 +12,8 @@ int main() {
     // print as a pointer
     printf("x = %p\n", x);
 
-    /* *x = 6; */
+    *x = 6;
     /* &x = 6; */
-    12 = 6;
 
     printf("a = %i\n", a);
     printf("*x = %i\n", *x);
