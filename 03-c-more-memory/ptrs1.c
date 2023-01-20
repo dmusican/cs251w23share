@@ -12,6 +12,8 @@ int main() {
     // print as a pointer
     printf("x = %p\n", x);
 
+    *x = 6;
+
 
     return 0;
 }
