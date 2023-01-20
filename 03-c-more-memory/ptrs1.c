@@ -15,6 +15,7 @@ int main() {
     *x = 6;
 
     printf("a = %i\n", a);
+    printf("*x = %i\n", *x);
 
     return 0;
 }
