@@ -7,7 +7,7 @@ int main() {
 
     // probably a bad idea...
     int *x;
-    x = &a;
+    x = a;
 
     // print as a pointer
     printf("x = %p\n", x);
