@@ -13,7 +13,7 @@ int main() {
     printf("x = %p\n", x);
 
     *x = 6;
-    /* &x = 6; */
+    /* &x = 6; BAD BAD BAD BAD BAD */
 
     printf("a = %i\n", a);
     printf("*x = %i\n", *x);
