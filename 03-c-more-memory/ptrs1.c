@@ -9,6 +9,7 @@ int main() {
     int *x;
     x = &a;
 
+    // print as a pointer
     printf("x = %p\n", x);
 
 
