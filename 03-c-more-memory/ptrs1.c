@@ -3,7 +3,13 @@
 int main() {
 
     int a = 12;
-    printf("%i\n", a);
+    printf("a = %i\n", a);
+
+    // probably a bad idea...
+    int *x;
+    x = &a;
+
+    printf("x = %i\n", x);
 
 
     return 0;
