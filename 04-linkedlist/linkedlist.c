@@ -9,16 +9,12 @@ struct LinkedList {
 typedef    struct LinkedList    LinkedList;
 
 LinkedList *insertFrontLL(LinkedList *list, int item) {
-
     // Create a new LinkedList struct
     LinkedList *newCell = malloc(sizeof(LinkedList));
-
     // Put item in it
     (*newCell).value = item;
-
     // Point next to list passed in
     (*newCell).next = list;
-
     // Return a pointer to this new struct
     return newCell;
 }
