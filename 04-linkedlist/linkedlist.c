@@ -39,5 +39,5 @@ int main() {
     list = insertFrontLL(list, 2);
     list = insertFrontLL(list, 5);
     list = insertFrontLL(list, 3);
-    displayLL(list);
+    displayLLAgain(list);
 }
