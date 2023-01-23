@@ -17,8 +17,10 @@ LinkedList *insertFrontLL(LinkedList *list, int item) {
     (*newCell).value = item;
 
     // Point next to list passed in
-    // Return a pointer to this new struct
+    (*newCell).next = list;
 
+    // Return a pointer to this new struct
+    return newCell;
 }
 
 
