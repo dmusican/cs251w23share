@@ -35,6 +35,12 @@ void displayLLAgain(LinkedList *list) {
         current = current->next;
     }
 }
+
+void cleanupLL(LinkedList *list) {
+    free(list);
+}
+
+
 int main() {
     LinkedList *list = NULL;
     list = insertFrontLL(list, 2);
