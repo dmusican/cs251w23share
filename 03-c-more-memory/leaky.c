@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <boolean.h>
 #include <stdlib.h>
 
 int main() {
 
     int *x;
-    while (true) {
+    while (1) {
         x = malloc(sizeof(int));
     }
 }
