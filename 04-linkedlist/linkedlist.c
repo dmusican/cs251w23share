@@ -6,7 +6,7 @@ struct LinkedList {
     struct LinkedList *next;
 };
 
-typedef    struct LinkedList    LinkedList;
+/* typedef    struct LinkedList    LinkedList; */
 
 int main() {
     LinkedList *list = NULL;
