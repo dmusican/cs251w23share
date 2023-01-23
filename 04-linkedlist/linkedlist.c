@@ -30,7 +30,7 @@ void displayLL(LinkedList *list) {
 void displayLLAgain(LinkedList *list) {
     LinkedList *current = list;
     while (current != NULL) {
-        printf("Value = %i\n", (*current).value);
+        printf("Value = %i\n", current->value);
         current = (*current).next;
     }
 }
