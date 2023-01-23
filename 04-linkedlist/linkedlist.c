@@ -55,5 +55,6 @@ int main() {
     cleanupLL(list);
     printf("ll %lu\n",sizeof(LinkedList));
     printf("int %lu\n", sizeof(int));
+    printf("int* %lu\n", sizeof(int*));
 
 }
