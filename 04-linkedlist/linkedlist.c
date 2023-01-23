@@ -8,6 +8,14 @@ struct LinkedList {
 
 typedef    struct LinkedList    LinkedList;
 
+LinkedList *insertFrontLL(LinkedList *list, int item) {
+
+
+}
+
+
+
 int main() {
     LinkedList *list = NULL;
+    list = insertFrontLL(list, 3);
 }
