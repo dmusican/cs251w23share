@@ -39,8 +39,9 @@ void displayLLAgain(LinkedList *list) {
 void cleanupLL(LinkedList *list) {
     LinkedList *current = list;
     while (current != NULL) {
+        LinkedList *follow = (*current).next;
         free(current);
-        current = (*current).next;
+        current = follow;
     }
 }
 
