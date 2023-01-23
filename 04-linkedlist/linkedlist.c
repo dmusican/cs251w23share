@@ -9,5 +9,5 @@ struct LinkedList {
 /* typedef    struct LinkedList    LinkedList; */
 
 int main() {
-    LinkedList *list = NULL;
+    struct LinkedList *list = NULL;
 }
