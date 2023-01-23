@@ -52,4 +52,5 @@ int main() {
     list = insertFrontLL(list, 5);
     list = insertFrontLL(list, 3);
     displayLLAgain(list);
+    cleanupLL(list);
 }
