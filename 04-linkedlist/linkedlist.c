@@ -53,4 +53,7 @@ int main() {
     list = insertFrontLL(list, 3);
     displayLLAgain(list);
     cleanupLL(list);
+    printf("ll %i\n",sizeof(LinkedList));
+    printf("int %i\n", sizeof(int));
+
 }
