@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <boolean.h>
+#include <bool.h>
 
 int main() {
 
