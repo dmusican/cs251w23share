@@ -19,9 +19,14 @@ LinkedList *insertFrontLL(LinkedList *list, int item) {
     return newCell;
 }
 
+void displayLL(LinkedList *list) {
+
 
 
 int main() {
     LinkedList *list = NULL;
+    list = insertFrontLL(list, 2);
+    list = insertFrontLL(list, 5);
     list = insertFrontLL(list, 3);
+    displayLL(list);
 }
