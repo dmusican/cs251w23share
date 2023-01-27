@@ -1,6 +1,6 @@
-#ifndef LINKEDLIST_H_
-#define LINKEDLIST_H_
+struct LinkedList {
+    int value;
+    struct LinkedList *next;
+};
 
-
-
-#endif // LINKEDLIST_H_
+typedef    struct LinkedList    LinkedList;
