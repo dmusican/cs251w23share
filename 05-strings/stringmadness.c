@@ -12,9 +12,9 @@ int main() {
     printf("%s\n", word1);
 
     // "hello" is a string in static memory
-    char *word2 = "hello";
-    printf("word2: %s\n", word2);
-    word2[0] = 'y';
+    /* char *word2 = "hello"; */
+    /* printf("word2: %s\n", word2); */
+    /* word2[0] = 'y'; */
 
 
 
