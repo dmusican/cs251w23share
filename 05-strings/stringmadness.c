@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     // low level, kind of dumb
@@ -17,8 +18,7 @@ int main() {
     /* word2[0] = 'y'; */
 
 
-
     char word3[6];
-    //strcpy(word2, "hello");
+    strcpy(word2, "hello");
 
 }
