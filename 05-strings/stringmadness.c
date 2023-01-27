@@ -17,7 +17,7 @@ int main() {
 
 
 
-    char word2[6];
+    char word3[6];
     //strcpy(word2, "hello");
 
 }
