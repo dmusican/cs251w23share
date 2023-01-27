@@ -1,4 +1,4 @@
-#include "linkedlist.c"
+#include "linkedlist.h"
 
 int main() {
     LinkedList *list = NULL;
