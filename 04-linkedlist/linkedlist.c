@@ -1,12 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
-struct LinkedList {
-    int value;
-    struct LinkedList *next;
-};
-
-typedef    struct LinkedList    LinkedList;
+#include "linkedlist.h"
 
 LinkedList *insertFrontLL(LinkedList *list, int item) {
     // Create a new LinkedList struct
