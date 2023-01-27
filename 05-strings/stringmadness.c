@@ -12,6 +12,7 @@ int main() {
     printf("%s\n", word1);
 
     char word2[6];
+    // "hello" is a string in static memory
     strcpy(word2, "hello");
 
 }
