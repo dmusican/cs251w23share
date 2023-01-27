@@ -11,5 +11,7 @@ int main() {
     word1[5] = '\0';
     printf("%s\n", word1);
 
+    char word2[6];
+    strcpy(word2, "hello");
 
 }
