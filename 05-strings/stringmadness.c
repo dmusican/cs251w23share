@@ -13,6 +13,7 @@ int main() {
 
     // "hello" is a string in static memory
     char *word2 = "hello";
+    printf("word2: %s\n", word2);
 
 
 
