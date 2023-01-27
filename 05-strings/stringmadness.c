@@ -19,6 +19,8 @@ int main() {
 
 
     char word3[6];
-    strcpy(word2, "hello");
+    strcpy(word3, "hello");
+    word3[0] = 'y';
+    print("word 3 %s\n", word3);
 
 }
