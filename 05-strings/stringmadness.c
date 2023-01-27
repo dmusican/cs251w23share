@@ -8,6 +8,7 @@ int main() {
     word1[2] = 'l';
     word1[3] = 'l';
     word1[4] = 'o';
+    word1[5] = '\0';
     // uh oh
     printf("%s\n", word1);
 }
