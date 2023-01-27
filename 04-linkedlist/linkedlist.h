@@ -5,4 +5,5 @@ struct LinkedList {
 
 typedef    struct LinkedList    LinkedList;
 
+// function prototype
 LinkedList *insertFrontLL(LinkedList *list, int item);
