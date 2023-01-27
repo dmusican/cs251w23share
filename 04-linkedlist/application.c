@@ -1,3 +1,5 @@
+#include "linkedlist.c"
+
 int main() {
     LinkedList *list = NULL;
     list = insertFrontLL(list, 2);
