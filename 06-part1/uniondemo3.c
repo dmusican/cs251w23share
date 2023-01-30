@@ -12,7 +12,7 @@ int main() {
 
     // .... much later...
     if (v->type == INT_TYPE) {
-        printf("%i\n", v.i);
+        printf("%i\n", v->i);
     }
 
     v->type = CONS_TYPE;
