@@ -15,7 +15,7 @@ int main() {
         printf("%i\n", v.i);
     }
 
-    v.type = CONS_TYPE;
+    v->type = CONS_TYPE;
     v.c.car = NULL;
     v.c.cdr = NULL;
 }
