@@ -5,8 +5,8 @@ union Thing {
 };
 
 int main() {
-    printf("int size is %ul\n", sizeof(int));
-    printf("double size is %ul\n", sizeof(double));
+    printf("int size is %lu\n", sizeof(int));
+    printf("double size is %lu\n", sizeof(double));
     union Thing t;
     t.i = 3;
     printf("%i\n", t.i);
