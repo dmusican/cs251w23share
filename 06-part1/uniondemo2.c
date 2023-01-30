@@ -10,3 +10,4 @@ int main() {
     if (v.type == INT_TYPE) {
         printf("%i\n", v.i);
     }
+}
