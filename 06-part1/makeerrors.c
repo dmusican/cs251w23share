@@ -11,5 +11,6 @@ int main() {
     int *things = malloc(5*sizeof(int));
     for (int i=0; i < 10; i++) {
         things[i] = i;
+    }
 
 }
