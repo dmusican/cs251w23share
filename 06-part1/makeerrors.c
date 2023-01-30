@@ -13,12 +13,12 @@ int main() {
     /*     things[i] = i; */
     /* } */
 
-    /* int *x; */
-    /* free(x); */
+    int *x;
+    free(x);
 
-    int x;
-    if (x == 3) {
-        printf("yeah right");
-    }
+    /* int x; */
+    /* if (x == 3) { */
+    /*     printf("yeah right"); */
+    /* } */
 
 }
