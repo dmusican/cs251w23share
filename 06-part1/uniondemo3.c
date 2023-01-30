@@ -5,7 +5,7 @@
 // you won't usuall declare a Value directly,
 // you will malloc it
 int main() {
-    Value v;
+    Value *v = malloc(sizeof(Value));
     v.i = 3;
     v.type = INT_TYPE;
 
