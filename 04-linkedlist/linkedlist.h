@@ -1,5 +1,3 @@
-#ifndef LINKEDLIST_H
-#define LINKEDLIST_H
 
 struct LinkedList {
     int value;
@@ -14,4 +12,3 @@ void displayLL(LinkedList *list);
 void displayLLAgain(LinkedList *list);
 void cleanupLL(LinkedList *list);
 
-#endif
