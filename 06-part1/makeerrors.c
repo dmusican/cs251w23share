@@ -8,10 +8,12 @@ int main() {
 
     /* malloc(sizeof(int)); */
 
-    int *things = malloc(5*sizeof(int));
-    for (int i=0; i < 10; i++) {
-        things[i] = i;
-    }
+    /* int *things = malloc(5*sizeof(int)); */
+    /* for (int i=0; i < 10; i++) { */
+    /*     things[i] = i; */
+    /* } */
 
+    int *x;
+    free(x);
 
 }
