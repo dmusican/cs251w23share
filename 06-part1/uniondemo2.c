@@ -1,4 +1,5 @@
 #include "value.h"
+#include <stdio.h>
 
 int main() {
     Value v;
