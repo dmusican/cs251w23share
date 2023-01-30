@@ -8,6 +8,7 @@ int main() {
     printf("int size is %lu\n", sizeof(int));
     printf("double size is %lu\n", sizeof(double));
     union Thing t;
+    print("thing size is %lu\n", sizeof(union Thing));
     t.i = 3;
     printf("%i\n", t.i);
 
