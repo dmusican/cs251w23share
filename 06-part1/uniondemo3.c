@@ -6,7 +6,7 @@
 // you will malloc it
 int main() {
     Value *v = malloc(sizeof(Value));
-    v.i = 3;
+    (*v).i = 3;
     v.type = INT_TYPE;
 
     // .... much later...
