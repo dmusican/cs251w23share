@@ -17,5 +17,5 @@ int main() {
 
     v->type = CONS_TYPE;
     v->c.car = NULL;
-    v.c.cdr = NULL;
+    v->c.cdr = NULL;
 }
