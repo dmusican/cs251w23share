@@ -14,4 +14,8 @@ int main() {
 
     t.d = 7.5;
     printf("%i\n", t.i);
+
+
+    t.i = 3;
+    printf("%i\n", t.d);
 }
