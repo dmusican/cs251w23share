@@ -15,3 +15,5 @@ void displayLLAgain(LinkedList *list);
 void cleanupLL(LinkedList *list);
 
 int yuckyglobal = 0;
+
+#endif
