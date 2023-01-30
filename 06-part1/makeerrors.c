@@ -24,5 +24,6 @@ int main() {
     int *x = malloc(sizeof(int));
     free(x);
     free(x);
+    exit(0);
 
 }
