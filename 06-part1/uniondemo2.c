@@ -1,6 +1,9 @@
 #include "value.h"
 #include <stdio.h>
 
+// Bad for many reasons, one of which is
+// you won't usuall declare a Value directly,
+// you will malloc it
 int main() {
     Value v;
     v.i = 3;
