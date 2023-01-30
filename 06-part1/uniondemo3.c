@@ -8,7 +8,7 @@
 int main() {
     Value *v = malloc(sizeof(Value));
     v->i = 3;
-    v.type = INT_TYPE;
+    v->type = INT_TYPE;
 
     // .... much later...
     if (v.type == INT_TYPE) {
