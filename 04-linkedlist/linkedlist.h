@@ -1,3 +1,6 @@
+#ifndef LINKEDLIST_H
+#define LINKEDLIST_H
+
 struct LinkedList {
     int value;
     struct LinkedList *next;
