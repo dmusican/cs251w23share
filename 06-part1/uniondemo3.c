@@ -1,5 +1,6 @@
 #include "value.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 // Bad for many reasons, one of which is
 // you won't usuall declare a Value directly,
