@@ -1,7 +1,7 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
-#include <stdio.h>s
+#include <stdio.h>
 
 struct LinkedList {
     int value;
