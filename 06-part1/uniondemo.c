@@ -12,7 +12,7 @@ int main() {
     t.i = 3;
     printf("%i\n", t.i);
 
-    t.d = 7.5;
+    t.d = 1111117.5;
     printf("%i\n", t.i);
 
 
