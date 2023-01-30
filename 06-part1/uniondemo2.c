@@ -10,4 +10,8 @@ int main() {
     if (v.type == INT_TYPE) {
         printf("%i\n", v.i);
     }
+
+    v.type = CONS_TYPE;
+    v.c.car = NULL;
+    v.c.cdr = NULL;
 }
