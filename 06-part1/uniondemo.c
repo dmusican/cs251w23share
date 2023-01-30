@@ -1,3 +1,4 @@
+#include <stdio.h>
 union Thing {
     int i;
     double d;
