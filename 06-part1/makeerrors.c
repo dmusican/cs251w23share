@@ -21,4 +21,8 @@ int main() {
     /*     printf("yeah right"); */
     /* } */
 
+    int *x = malloc(sizeof(int));
+    free(x);
+    free(x);
+
 }
