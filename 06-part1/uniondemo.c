@@ -17,5 +17,5 @@ int main() {
 
 
     t.i = 3;
-    printf("%i\n", t.d);
+    printf("%g\n", t.d);
 }
