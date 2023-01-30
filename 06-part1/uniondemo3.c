@@ -11,7 +11,7 @@ int main() {
     v->type = INT_TYPE;
 
     // .... much later...
-    if (v.type == INT_TYPE) {
+    if (v->type == INT_TYPE) {
         printf("%i\n", v.i);
     }
 
