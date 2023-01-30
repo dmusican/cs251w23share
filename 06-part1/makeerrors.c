@@ -3,8 +3,9 @@
 
 int main() {
 
-    int *x;
-    *x = 5;
+    /* int *x; */
+    /* *x = 5; */
 
+    malloc(sizeof(int));
 
 }
