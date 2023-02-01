@@ -6,6 +6,10 @@ for line in inpfile:
     if int(number) < 1:
         print('Interpreter error, number too small')
         sys.exit()
+
+    for i in range(number):
+        print(command)
+
     outfile.write('for i in {1..' + number + '}\n')
     outfile.write('do\n')
     outfile.write('    echo ' + command + '\n')
