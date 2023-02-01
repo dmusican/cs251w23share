@@ -7,7 +7,7 @@ for line in inpfile:
         print('Interpreter error, number too small')
         sys.exit()
 
-    for i in range(number):
+    for i in range(int(number)):
         print(command)
 
     # outfile.write('for i in {1..' + number + '}\n')
