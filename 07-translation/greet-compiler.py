@@ -8,3 +8,9 @@ for line in inpfile:
         print('Compiler error, number too small')
         sys.exit()
     outfile.write('for i in {1..' + number + '}\n')
+    outfile.write('do\n')
+    outfile.write('    echo ' + command + '\n')
+    outfile.write('done\n')
+
+inpfile.close()
+outfile.close()
