@@ -10,10 +10,4 @@ for line in inpfile:
     for i in range(int(number)):
         print(command)
 
-    # outfile.write('for i in {1..' + number + '}\n')
-    # outfile.write('do\n')
-    # outfile.write('    echo ' + command + '\n')
-    # outfile.write('done\n')
-
 inpfile.close()
-outfile.close()
