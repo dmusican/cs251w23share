@@ -6,7 +6,7 @@ interface Function {
     public int f(int a, int b);
 }
 
-class ExampleLambda3 {
+class ExampleLambda4 {
 
     public static void evaluate(
             Function dobj, int x, int y) {
