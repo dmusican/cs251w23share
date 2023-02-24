@@ -13,6 +13,7 @@ class ExampleLambda {
     public static void evaluate(
             DaveOperation dobj, int x, int y) {
         System.out.println(dobj.f(x,y));
+    }
 
     public static void main(String[] args) {
         evaluate(new DaveOperation(), 3, 5);
