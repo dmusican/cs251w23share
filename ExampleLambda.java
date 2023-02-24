@@ -10,15 +10,12 @@ class DaveOperation {
 
 class ExampleLambda {
 
-    public .... plus(int a, int b) {
-        return a + b;
-    }
-
-    public .....   evaluate( f, int x, int y) {
-        System.out.println(f(x,y));
+    public static void evaluate(
+            DaveOperation dobj, int x, int y) {
+        System.out.println(dobj.f(x,y));
 
     public static void main(String[] args) {
-        evaluate(plus, 3, 5);
+        evaluate(new DaveOperation(), 3, 5);
     }
 
 }
