@@ -33,3 +33,6 @@ def curryplus(a):
     return lambda b: a + b
 
 print(curryplus(3)(5))
+
+cplus = lambda a: (lambda b: a+b)
+print(cplus(3)(5))
