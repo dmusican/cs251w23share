@@ -12,6 +12,11 @@ class Plus implements DaveOperation {
     }
 }
 
+class Subract implements DaveOperation {
+    public int f(int a, int b) {
+        return a+b;
+    }
+}
 class ExampleLambda {
 
     public static void evaluate(
