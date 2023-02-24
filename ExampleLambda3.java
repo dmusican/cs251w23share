@@ -2,14 +2,14 @@
 //     (lambda (f x y)
        // (f x y)))
 
-interface DaveOperation {
+interface Function {
     public int f(int a, int b);
 }
 
 class ExampleLambda2 {
 
     public static void evaluate(
-            DaveOperation dobj, int x, int y) {
+            Function dobj, int x, int y) {
         System.out.println(dobj.f(x,y));
     }
 
