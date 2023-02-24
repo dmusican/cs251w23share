@@ -6,7 +6,7 @@ interface DaveOperation {
     public int f(int a, int b);
 }
 
-class Plus implements DaveOperation
+class Plus implements DaveOperation {
     public int f(int a, int b) {
         return a+b;
     }
