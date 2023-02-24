@@ -2,6 +2,12 @@
 //     (lambda (f x y)
        // (f x y)))
 
+class DaveOperation {
+    public int f(int a, int b) {
+        return a+b;
+    }
+
+
 class ExampleLambda {
 
     public .... plus(int a, int b) {
