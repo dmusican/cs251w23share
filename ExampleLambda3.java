@@ -14,11 +14,11 @@ class ExampleLambda3 {
     }
 
     public static void main(String[] args) {
-        evaluate(new DaveOperation() {
+        evaluate(new Function() {
                 public int f(int a, int b) {
                     return a+b;
                 }}, 3, 5);
-        evaluate(new DaveOperation() {
+        evaluate(new Function() {
                 public int f(int a, int b) {
                     return a-b;
                 }}, 3, 5);
