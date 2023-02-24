@@ -20,7 +20,7 @@ class ExampleLambda {
     }
 
     public static void main(String[] args) {
-        evaluate(new DaveOperation(), 3, 5);
+        evaluate(new Plus(), 3, 5);
     }
 
 }
