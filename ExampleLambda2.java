@@ -18,7 +18,7 @@ class Subtract implements DaveOperation {
     }
 }
 
-class ExampleLambda {
+class ExampleLambda2 {
 
     public static void evaluate(
             DaveOperation dobj, int x, int y) {
