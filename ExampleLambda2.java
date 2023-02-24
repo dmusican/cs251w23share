@@ -18,7 +18,10 @@ class ExampleLambda2 {
                 public int f(int a, int b) {
                     return a+b;
                 }}, 3, 5);
-        // evaluate(new Subtract(), 3, 5);
+        evaluate(new DaveOperation() {
+                public int f(int a, int b) {
+                    return a-b;
+                }}, 3, 5);
     }
 
 }
