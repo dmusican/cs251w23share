@@ -14,11 +14,9 @@ class ExampleLambda3 {
     }
 
     public static void main(String[] args) {
-        Function plus = (a,b) -> a + b;
-        evaluate(plus, 3, 5);
+        evaluate((a,b) -> a + b, 3, 5);
 
-        Function minus = (a,b) -> a - b;
-        evaluate(minus, 3, 5);
+        evaluate((a,b) -> a - b, 3, 5);
     }
 
 }
