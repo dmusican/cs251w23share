@@ -12,7 +12,7 @@ class Plus implements DaveOperation {
     }
 }
 
-class Subract implements DaveOperation {
+class Subtract implements DaveOperation {
     public int f(int a, int b) {
         return a-b;
     }
@@ -27,7 +27,7 @@ class ExampleLambda {
 
     public static void main(String[] args) {
         evaluate(new Plus(), 3, 5);
-        evaluate(new Subract(), 3, 5);
+        evaluate(new Subtract(), 3, 5);
     }
 
 }
