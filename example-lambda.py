@@ -28,3 +28,8 @@ def get_age(person):
 
 people.sort(key=get_age)
 print(people)
+
+def curryplus(a):
+    return lambda b: a + b
+
+print(curryplus(3)(5))
