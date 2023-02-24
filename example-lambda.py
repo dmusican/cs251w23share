@@ -20,5 +20,5 @@ print(evaluate(lambda x,y: x+y, 3, 5))
 
 people = [("Dave", 3), ("Liz", 8),
           ("Rae", 1), ("Evan", 12)]
-people.sort()
+people.sort(key=lambda person: person[1])
 print(people)
