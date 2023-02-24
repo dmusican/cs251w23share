@@ -6,18 +6,6 @@ interface DaveOperation {
     public int f(int a, int b);
 }
 
-class Plus implements DaveOperation {
-    public int f(int a, int b) {
-        return a+b;
-    }
-}
-
-class Subtract implements DaveOperation {
-    public int f(int a, int b) {
-        return a-b;
-    }
-}
-
 class ExampleLambda2 {
 
     public static void evaluate(
@@ -26,8 +14,11 @@ class ExampleLambda2 {
     }
 
     public static void main(String[] args) {
-        evaluate(new Plus(), 3, 5);
-        evaluate(new Subtract(), 3, 5);
+        evaluate(new DaveOperation() {
+                public int f(int a, int b) {
+                    return a+b;
+                }}, 3, 5);
+        // evaluate(new Subtract(), 3, 5);
     }
 
 }
