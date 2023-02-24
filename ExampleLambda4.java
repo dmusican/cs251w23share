@@ -14,7 +14,7 @@ class ExampleLambda4 {
     }
 
     public static void main(String[] args) {
-        evaluate((a,b,c) -> a + b, 3, 5);
+        evaluate((a,b) -> a + b, 3, 5);
 
         evaluate((a,b) -> a - b, 3, 5);
     }
