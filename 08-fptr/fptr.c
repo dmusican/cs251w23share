@@ -4,7 +4,7 @@ int add(int x, int y) {
     return x + y;
 }
 
-int doit(   f,   int x, int y) {
+int doit(   f   , int x, int y) {
     return f(x,y);
 }
 
