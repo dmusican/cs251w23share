@@ -10,6 +10,6 @@ int doit(int (*f)(int,int), int x, int y) {
 }
 
 int main() {
-    result = doit(add, 3, 5);
+    int result = doit(add, 3, 5);
     printf("%i\n", result);
 }
