@@ -5,8 +5,8 @@ int add(int x, int y) {
 }
 
 int doit(int (*f)(int,int), int x, int y) {
-    return (*f)(x,y);
-    /* return f(x,y); */
+    /* return (*f)(x,y); */
+    return f(x,y);
 }
 
 int main() {
